@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">nb</div>
+        <nav>
+            <a href="#main" class="nav-link">Главная</a>
+            <a href="#about" class="nav-link">Обо мне</a>
+            <a href="#skills" class="nav-link">Навыки</a>
+            <a href="#works" class="nav-link">Работы</a>
+            <a href="#reviews" class="nav-link">Отзывы</a>
+        </nav>
+    </header>
+    <main>
+        <section class="primary-container">
+            <div class="primary-container__block">
+                <div class="primary-container__block-top">
+                    <div class="ellipse-container">
+                        <img src="./img/Ellipse 11.svg" alt="ellipse">
+                        <img src="./img/Ellipse 12.svg" alt="ellipse">
+                        <img src="./img/Ellipse 13.svg" alt="ellipse">
+                    </div>
+                </div>
+                <div class="primary-container__block-bottom">
+                    <div class="primary-container__block-bottom-text">
+                        <p class="primary-container__block-bottom-text-name">NATALYA BARANOVA</p>
+                        <p class="primary-container__block-bottom-text-description">личный веб-сайт разработчика</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="more-info-btn">Подробнее</button>
+            <img src="img/thing.png" alt="thing" class="thing">
+        </section>
+        <section class="about-section" id="about">
+            <h2>Обо мне</h2>
+            <div class="rectangle-below">
+                <p class="text-inside">
+                    Меня зовут Наталья. Я занимаюсь разработкой сайтов и приложений. <br><br>
+                    Мне нравится создавать интересные и современные проекты.
+                </p>
+                <button class="button-below">Мои навыки</button>
+            </div>
+            <div class="second-rectangle">
+                <figure>
+                    <div class="ellipse-group">
+                        <img src="./img/Ellipse 11.svg" alt="ellipse">
+                        <img src="./img/Ellipse 12.svg" alt="ellipse">
+                        <img src="./img/Ellipse 13.svg" alt="ellipse">
+                    </div>
+                    <img src="img/your_photo.png" alt="MyPhoto">
+                    <figcaption>
+                        <span><b>Где живу:</b>&nbsp;Минск</span><br>
+                        <span><b>Возраст:</b>&nbsp;21</span><br>
+                        <span><b>Год рождения: </b>&nbsp;2002</span>
+                    </figcaption>
+                </figure>
+            </div>
+            <img src="img/cloud.png" alt="cloud" class="cloud">
+        </section>
+        <section class="skills-section" id="skills">
+            <h2>Навыки</h2>
+            <div class="content">
+                <div class="top-content">
+                    <div class="ellipse-container">
+                        <img src="./img/Ellipse 11.svg" alt="ellipse">
+                        <img src="./img/Ellipse 12.svg" alt="ellipse">
+                        <img src="./img/Ellipse 13.svg" alt="ellipse">
+                    </div>
+                </div>
+                <div class="bottom-content">
+                    <span class="text-in">
+                        Этот сайт я делала в рамках обучения школы<br>
+                        Rocket tech school
+                    </span>
+
+                    <div class="icons">
+                        <img src="img/html.png" alt="html" class="icon">
+                        <img src="img/css.png" alt="html" class="icon">
+                        <img src="img/js.png" alt="html" class="icon">
+                    </div>
+                    <button class="show-works">Смотреть работы</button>
+                </div>
+            </div>
+        </section>
+        <section class="works" id="works">
+            <h2>Работы</h2>
+            <div class="examples">
+                <img src="img/work1.png" alt="work" class="work">
+                <img src="img/work2.png" alt="work" class="work">
+                <img src="img/work3.png" alt="work" class="work">
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <h2>Отзывы</h2>
+            <div class="reviews-content">
+                <div class="person-information">
+
+                    <figure>
+                        <div class="ellipse-group">
+                            <img src="./img/Ellipse 11.svg" alt="ellipse">
+                            <img src="./img/Ellipse 12.svg" alt="ellipse">
+                            <img src="./img/Ellipse 13.svg" alt="ellipse">
+                        </div>
+                        <img src="img/diana.png" alt="diana" class="diana">
+                        <figcaption>
+                            <span class="name-person">Диана</span><br>
+                            <span description-person>Product Lead Rocket Tech School</span>
+                        </figcaption>
+                    </figure>
+
+                </div>
+                <div class="text-container">
+                    <img src="img/dialog.png" alt="dialog" class="dialog">
+                    <span class="dialog-text">Очень хорошо пишет код. Отличная оптимизация сайта. Современно, стильно,
+                        молодежно!
+                    </span>
+                </div>
+            </div>
+
+        </section>
+        <footer class="footer">
+            <div class="left-text">
+                <div>НАТАЛЬЯ БАРАНОВА</div>
+                <div>Личный сайт веб-разработчика</div>
+            </div>
+            <div class="center-text">
+                (c) 2024
+            </div>
+            <div class="right-icons">
+                <img src="img/dicrord.png" alt="icon1" class="small-icon">
+                <img src="img/facebook.png" alt="icon2" class="small-icon">
+                <img src="img/insta.png" alt="icon3" class="small-icon">
+                <img src="img/tg.png" alt="icon4" class="small-icon">
+            </div>
+        </footer>
+    </main>
+
+    <script src="index.js">
+    // Добавить бургер меню внутрь тега nav для мобильной версии
+    document.querySelector('nav').insertAdjacentHTML('beforeend', '<div class="burger"><span></span></div>');
+
+    // Добавить обработчик события для открытия/закрытия меню при клике на бургер
+    document.querySelector('.burger').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.nav').classList.toggle('open');
+});
+
+    </script>
+</body>
+
+</html>
